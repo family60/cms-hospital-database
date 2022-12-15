@@ -1,0 +1,62 @@
+header,
+.user:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #1b89bc;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.no-button:hover {
+  color: #065b83;
+  text-decoration: underline;
+}
+
+
+.homepageSection {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.topDoctors {
+  display: flex;
+  flex-direction: row;
+}
+
+.gradient{
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(137, 145, 240));
+}
+
+.card-steth{
+  object-fit: cover;
+}
+
+.card-img-overlay{
+  background-image: linear-gradient(to left, rgba(235, 212, 212, 0.172), rgb(67, 80, 217));
+}
+
+.checked {
+  color: orange;
+}
+
+.avatarcontainer {
+  position: absolute;
+  }
+
+.avatar{
+  width: 50px;
+  height: 50px;
+  border-radius: 75%;
+}
+
+.custom-centered{
+  margin:0 auto;
+  width:300px;
+ }
