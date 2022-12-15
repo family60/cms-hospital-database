@@ -1,7 +1,7 @@
 //imports
 const Floor = require("./Floor");
 const User = require("./User");
-const Employee = require("./Employee");
+const Employee = require("./employee");
 const Patient = require("./Patient");
 //insert other table class model imports
 
