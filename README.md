@@ -5,7 +5,7 @@ An application for patients and hospital employees built using Node.js, Express.
 When a user first enters the website, they are prompted with a login/signup screen. If they already have an account with us, they can login, if not, they can fil out a sign up form to get started. Once either form is submitted, the user is redirected to the homepage. From there, the user may read about the appointments that some patients have with some doctors, read about the top doctors working at the hospital, or click on any link in the navbar. There is an option to logout or view Floor or Patients tables. Clicking on their table link with allow the user to view and run CRUD operations on each table (if they have permission).
 
 ## Demo
-A live demo link of this application can be found here: 
+A live demo link of this application can be found here: https://hospitalmvcproject.herokuapp.com/
 
 Here are some snippets of what some pages/endpoints look like:
 
